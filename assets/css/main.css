@@ -4838,11 +4838,13 @@ a img {
 }
 
 #particles-js .particles-js-canvas-el {
+
     width: 100% !important;
     height: 100vh !important
 }
 
 .header {
+    /* border: 1px solid red; */
     z-index: 1;
     text-align: center;
     color: #fff;
@@ -4879,7 +4881,7 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
-    .header .site-description {
+    .header .site-description #newNavbar {
         font-size: 40px
     }
 }
@@ -4894,6 +4896,8 @@ a img {
     font-size: 15px;
     margin: 10px
 }
+
+
 
 @media only screen and (min-width:550px) {
     .header-links .link {
@@ -4964,9 +4968,7 @@ a img {
 }
 
 .down .icon:active,
-.down .icon:hover,
-.footer a:active,
-.footer a:hover {
+.down .icon:hover {
     color: #4b5664
 }
 
@@ -5124,4 +5126,45 @@ a img {
     text-decoration: none;
     margin: 0;
     color: #fff
+}
+
+
+#newNavbar {
+    /* border: 1px solid red; */
+    z-index: 1;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    top: -10%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+@media only screen and (min-width:550px) {
+    #newNavbar {
+        margin: 0;
+        font-size: 100px
+    }
+}
+
+@media only screen and (min-width:550px) {
+    #newNavbar {
+        font-size: 40px
+    }
+}
+
+#footer-modify {
+    color: white;
+    text-align: left;
+    padding: 5%;
+
+}
+
+#footer-modify>h3 {
+    color: white;
+    margin-bottom: 2%;
 }

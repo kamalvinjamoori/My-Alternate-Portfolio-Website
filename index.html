@@ -28,8 +28,22 @@
   </head>
 
   <body>
+
     <div id="particles-js">
+
+
+
       <div class="header">
+
+        <div id="newNavbar">
+          <div class="header-links">
+            <a class="link" href="#about" data-scroll>About Me</a>
+            <a class="link" href="#skills" data-scroll>Skills</a>
+            <a class="link" href="#projects" data-scroll>Projects</a>
+            <a class="link" href="#contact" data-scroll>Contact Me</a>
+          </div>
+        </div>
+
         <h1>
           <span class="site-title">RAJKAMAL VINJAMOORI</span>
           <span class="site-description">Programmer • Web Developer </span>
@@ -48,8 +62,8 @@
               class="icon fa fa-envelope"></i></a>
         </div>
         <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
+          <!-- <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a> -->
         </div>
       </div>
       <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -66,15 +80,16 @@
           <img src="./assets/img/jpg/profile.jpeg" alt="Professional Me" width="20%" style="border-radius: 50%" />
         </picture>
         <p>
-          I am a Java backend developer with Strong knowledge in (Spring, Spring-boot, mySQL etc) and also
-          loves to explore new emerging technologies. I has a previous experience of working in fast-paced environemt
-          with a team of more than 20 members.looking forward to create some impactful projects and also to contribute
-          for
-          open-source community.
-          I love to read books, play chess and cricket in my leisure time.
+          I am a Java backend developer with strong knowledge of (Spring, Spring-boot, mySQL, etc.) and also love to
+          explore new emerging technologies. I have previous experience of working in a fast-paced environment with a
+          team of more than 20 members. I'm looking forward to creating some impactful projects and also contributing to
+          the open-source community. I love to read books, play chess and play cricket in my leisure time.
         </p>
       </div>
 
+    </section>
+
+    <section id="skills">
       <!-- User Specifics -->
       <div class="user">
         <!-- Technology Stack #1: Languages -->
@@ -100,7 +115,9 @@
         <!-- Technology Stack #3: Back-End -->
         <div class="tech">
           <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+            style="height: 75.5px; width: 75px;" />
+          <!-- <i class="devicon-nodejs-plain colored"></i> -->
           <!-- <i class="devicon-express-original-wordmark colored"></i> -->
           <span class="devicon-mysql-plain-wordmark colored"></span>
           <!-- <i class="devicon-postgresql-plain-wordmark colored"></i> -->
@@ -151,8 +168,10 @@
             We as a team collaborated and developed a website using Html,Css and JavaScript, hosted on Github Pages, as
             part of construct week.
           </p>
-          <a class="project-link" target="_blank" href="https://github.com/kamalvinjamoori/beminimalist-clone">Check it
+          <a class="project-link" target="_blank" href="https://be-minimalist-clone-eb6e54.netlify.app/">Check it
             out!</a>
+          <a class="project-link" target="_blank" href="https://github.com/kamalvinjamoori/beminimalist-clone">Source
+            code</a>
         </div>
       </div>
 
@@ -180,8 +199,9 @@
             I created a weather App to check present day weather and also forcast weekly weather reports.
             I used RestAPI to fetch and mostly designed using JS and hosted on GitHub.
           </p>
-          <a class="project-link" target="_blank"
-            href="https://github.com/kamalvinjamoori/miniApps/tree/main/weatherApp">Check it out!</a>
+          <a class="project-link" target="_blank" href="https://elastic-joliot-d8b259.netlify.app/">Check it out!</a>
+          <a class="project-link" target="_blank" href="https://github.com/kamalvinjamoori/WeatherApp">Source
+            code</a>
         </div>
       </div>
 
@@ -238,9 +258,28 @@
       </div> -->
     </section>
 
-    <footer class="footer">
-      <p>&copy; Rajkamal Vinjamoori, 2022</p>
-    </footer>
+    <section id="contact">
+      <footer class="footer">
+        <div id="footer-modify">
+          <h3>Contact me</h3>
+          <div>
+            <label for="mail">Email :</label>
+            <a href="mailto:kamalvinjamoori@gmail.com" id="mail"
+              style="text-align:center ;">kamalvinjamoori@gmail.com</a>
+          </div>
+          <div>
+            <label for="mail">LinkedIn :</label>
+            <a href="https://www.linkedin.com/in/rajkamal-vinjamoori/" id="mail"
+              style="text-align:center ; text-decoration: none;"> linkedin.com/in/rajkamal-vinjamoori/</a>
+          </div>
+          <div>
+            <label for="mail">Mobile No:</label>
+            <a href="" id="mail" style="text-align:center ; text-decoration: none;"> +91 8328309313</a>
+          </div>
+        </div>
+        <!-- <p>&copy; Rajkamal Vinjamoori, 2022</p> -->
+      </footer>
+    </section>
 
     <!-- Import JS: Particles Theme -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
